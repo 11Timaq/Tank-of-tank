@@ -212,12 +212,12 @@ int main(int argc, char* args[])
 
         if(Fgo == 1 or Fgo == 0)
         {
-            SDL_RenderTexture(mainRenderer, textureTankDown, NULL, &tank[1]);
+            SDL_RenderTexture(mainRenderer, textureTankUp, NULL, &tank[1]);
         }
 
         if(Fgo == 2)
         {
-            SDL_RenderTexture(mainRenderer, textureTankUp, NULL, &tank[1]);
+            SDL_RenderTexture(mainRenderer, textureTankDown, NULL, &tank[1]);
         }
 
         if(Fgo == 3)
